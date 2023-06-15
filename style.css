@@ -1,19 +1,28 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* Poppins */
+
+:root{
+  --upper-color: #a4161a;
+}
+
 *{
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 
+
+
 body{
   display: flex;
   flex-direction: column;
 }
 
+
+/* HEADER */
 .header{
   display: flex;
-  background-color: #a4161a;
+  background-color: var(--upper-color);
   color: white;
   justify-content: space-between;
   align-items: center;
@@ -35,3 +44,7 @@ a{
   text-decoration: none;
   color: white;
 }
+
+
+
+
