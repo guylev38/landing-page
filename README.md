@@ -1,5 +1,5 @@
 # landing-page
-A landing page made as a part of TheOdinProject corriculum  
+A landing page made as a part of [TheOdinProject](https://www.theodinproject.com/) corriculum  
 🔗Live Preview: https://guylev38.github.io/landing-page/
 
 # Technologies Used
