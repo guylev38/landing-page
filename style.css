@@ -45,7 +45,7 @@ ul{
   gap: 20px;
 }
 
-a{
+.header > ul > li > a{
   text-decoration: none;
   color: white;
 }
@@ -182,3 +182,17 @@ a{
   flex-direction: column; 
 }
 
+/* FOOTER */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--upper-color);
+  color: white;
+  padding: 20px;
+}
+
+footer > p > a{
+  text-decoration: none;
+  color: var(--button-color);
+}
