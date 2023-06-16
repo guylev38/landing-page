@@ -7,7 +7,8 @@
   --button-color: #52b69a;
   --button-shadow: #34a0a4;
   --quote-color: #d3d3d3;
-
+  --callout-color: #02c39a;
+  --callout-shadow: #00a896;
 }
 
 *{
@@ -141,3 +142,43 @@ a{
   padding-left: 1000px;
   font-size: 20px;
 }
+
+/* CALLOUT */
+.sign-up{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.callout{
+  background-color: var(--callout-color);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  width: 900px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.callout > button{
+  background-color: var(--callout-color);
+  border: 2px solid white;
+  color: white;
+  border-radius: 9px; 
+  width: 150px;
+  height: 50px;
+}
+
+.callout > button:hover{
+  background-color: var(--callout-shadow);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.callout > .text{
+  display: flex;
+  flex-direction: column; 
+}
+
