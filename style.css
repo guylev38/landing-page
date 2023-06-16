@@ -6,6 +6,8 @@
   --upper-color: #184e77;
   --button-color: #52b69a;
   --button-shadow: #34a0a4;
+  --quote-color: #d3d3d3;
+
 }
 
 *{
@@ -119,4 +121,23 @@ a{
 
 .card > p{
   font-size: 18px;
+}
+
+/* QUOTE */
+.quote{
+  background-color: var(--quote-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  padding: 100px;
+}
+
+.quote > h1{
+  font-weight: lighter; 
+}
+
+.quote > p{
+  padding-left: 1000px;
+  font-size: 20px;
 }
